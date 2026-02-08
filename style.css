@@ -1,0 +1,124 @@
+* {
+    border: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(48, 46, 46), rgb(8, 8, 8));
+    border:1px solid black;
+}
+nav ul{ 
+    padding:  0 10px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav ul li a{
+        padding: 0 10px;
+
+        color: beige;
+
+text-decoration: none;
+}
+
+h1 {
+    padding: 20px;
+    color: aliceblue;
+}
+
+input {
+   width: 70%;
+
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.i {
+    display:flex ;
+    justify-content: center;
+   width: 100%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 8, 119);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px 8px rgb(228, 156, 216);
+    border-radius: 20px;
+    gap: 10px;
+}
+
+section button {
+    padding: 10px;
+    background-color: rgb(151, 9, 127);
+    border-radius: 10px;
+}
+
+
+
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+main input{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(124, 18, 107);
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(88, 87, 88);
+}
+.pp{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(24, 24, 24);
+
+}
+@media (max-width: 425px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+}
