@@ -38,12 +38,9 @@ function getData(url) {
     request.send();
 }
 getData("https://dummyjson.com/recipes");
-
-
 input.addEventListener("input", () => {
     let v = input.value
     let newLink = `https://dummyjson.com/recipes/search?q=${v}`
     getData(newLink);
 })
-
 
